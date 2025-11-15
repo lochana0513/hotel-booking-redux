@@ -1,17 +1,14 @@
+|-- .gitattributes
 |-- .gitignore
-|-- hotel-booking-redux
-    |-- .gitattributes
-    |-- .gitignore
-    |-- LICENSE
-    |-- README.md
 |-- index.html
-|-- netlify.toml
+|-- LICENSE
 |-- package-lock.json
 |-- package.json
 |-- postcss.config.cjs
 |-- public
     |-- logo.png
     |-- _redirects
+|-- README.md
 |-- src
     |-- app
         |-- hook.js
