@@ -1,0 +1,87 @@
+|-- .gitignore
+|-- hotel-booking-redux
+    |-- .gitattributes
+    |-- .gitignore
+    |-- LICENSE
+    |-- README.md
+|-- index.html
+|-- netlify.toml
+|-- package-lock.json
+|-- package.json
+|-- postcss.config.cjs
+|-- public
+    |-- logo.png
+    |-- _redirects
+|-- src
+    |-- app
+        |-- hook.js
+        |-- store.js
+    |-- App.jsx
+    |-- assets
+        |-- img
+            |-- heroSlider
+                |-- 1.jpg
+                |-- 2.jpg
+                |-- 3.jpg
+            |-- logo-dark.svg
+            |-- logo-white.svg
+            |-- room.jpg
+            |-- rooms
+                |-- 1-lg.png
+                |-- 1.png
+                |-- 2-lg.png
+                |-- 2.png
+                |-- 3-lg.png
+                |-- 3.png
+                |-- 4-lg.png
+                |-- 4.png
+                |-- 5-lg.png
+                |-- 5.png
+                |-- 6-lg.png
+                |-- 6.png
+                |-- 7-lg.png
+                |-- 7.png
+                |-- 8-lg.png
+                |-- 8.png
+        |-- index.js
+    |-- components
+        |-- common
+            |-- Footer.jsx
+            |-- Header.jsx
+            |-- HeroSlider.jsx
+            |-- PageNotFound.jsx
+        |-- forms
+            |-- AdultsDropdown.jsx
+            |-- BookForm.jsx
+            |-- CheckIn.jsx
+            |-- CheckOut.jsx
+            |-- KidsDropdown.jsx
+        |-- index.js
+    |-- constants
+        |-- data.js
+    |-- features
+        |-- booking
+            |-- bookingApi.js
+            |-- bookingSlice.js
+            |-- mockData.js
+        |-- rooms
+            |-- components
+                |-- Room.jsx
+                |-- Rooms.jsx
+            |-- mockData.js
+            |-- roomFilterSlice.js
+            |-- roomsApi.js
+    |-- main.jsx
+    |-- pages
+        |-- Home.jsx
+        |-- index.js
+        |-- RoomDetails.jsx
+    |-- propTypes
+        |-- roomPropTypes.js
+    |-- style
+        |-- datepicker.css
+        |-- index.css
+    |-- utils
+        |-- ScrollToTop.js
+|-- tailwind.config.cjs
+|-- vite.config.js
